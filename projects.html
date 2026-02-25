@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Projects | Evan Fraser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg-orbs">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/projects" class="active">Projects</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode"></button>
+
+<div class="page-center page-column">
+  <div class="section-header fade-in">
+    <h1>Projects</h1>
+    <p>Things I'm building and working on.</p>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- EVAN AI -->
+    <div class="project-card fade-in fade-in-delay-1">
+      <span class="status-badge working">Live</span>
+      <h2>Kova</h2>
+      <p class="project-purpose">
+        One place to chat with GPT, Claude, and Grok — compare responses side-by-side and keep your data private.
+      </p>
+
+      <div class="project-media">
+        <img class="project-preview" src="Images/Kova.png" alt="Kova preview"
+             loading="lazy"
+             onerror="this.style.display='none'; this.parentElement.classList.add('no-image');" />
+        <span class="media-fallback">Kova preview</span>
+      </div>
+
+      <div class="project-links">
+        <a href="https://kova-ai-sar8.vercel.app/" target="_blank" rel="noopener" class="button primary small">Try It &rarr;</a>
+      </div>
+    </div>
+
+    <!-- PLACEHOLDER 1 -->
+    <div class="project-card placeholder-card fade-in fade-in-delay-2">
+      <div class="placeholder-inner">
+        <span class="placeholder-icon">+</span>
+        <span class="placeholder-label">Coming Soon</span>
+      </div>
+    </div>
+
+    <!-- PLACEHOLDER 2 -->
+    <div class="project-card placeholder-card fade-in fade-in-delay-3">
+      <div class="placeholder-inner">
+        <span class="placeholder-icon">+</span>
+        <span class="placeholder-label">Coming Soon</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Evan Fraser — Developer & Builder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evan Fraser — First-year FIMS + CS student at Western University. Building web apps and AI tools.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg-orbs">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <nav class="nav">
+      <a href="/" class="active">Home</a>
+      <a href="/projects">Projects</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode"></button>
+
+<main class="homepage">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero-section">
+    <div class="card hero-card fade-in">
+      <div class="hero">
+        <img class="hero-photo fade-in fade-in-delay-1" src="Images/me.jpg" alt="Photo of Evan">
+
+        <div class="fade-in fade-in-delay-2">
+          <h1>Hey im <span class="gradient-text">Evan</span></h1>
+
+          <p class="hero-sub">
+            First-year FIMS + Computer Science at Western University.<br>
+            this is a landing page for all projects im develpoing.
+          </p>
+
+          <div class="hero-actions">
+            <a href="/projects" class="button primary">See My Work</a>
+            <a href="/contact" class="button secondary">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-hint fade-in fade-in-delay-3" aria-label="Scroll down">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section section-compact">
+    <div class="section-inner about-centered">
+      <h2 class="section-heading fade-in-scroll">About</h2>
+
+      <div class="about-text fade-in-scroll">
+        <p>
+          I'm a first-year student studying FIMS and Computer Science at Western University.
+          This site is a collection of projects I'm actively working on and refining, including web apps and AI tools. I use it as a space to build, experiment, and document what I'm learning along the way.
+        </p>
+        <p>
+          Most of my work happens outside of formal coursework and is driven by curiosity and problem-solving. I'm interested in understanding how systems work end to end—from front-end design and user experience to back-end logic and data handling.
+        </p>
+        <p>
+          The projects featured here are often iterative and evolve over time as I test new ideas, improve functionality, and refine how things work in practice. Some are exploratory, while others are longer-term builds that I continue to improve as my skills grow.
+        </p>
+        <p>
+          This portfolio serves both as a record of my progress and as a place to share what I'm currently developing.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer fade-in-scroll">
+    <p>&copy; 2025 Evan Fraser</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
